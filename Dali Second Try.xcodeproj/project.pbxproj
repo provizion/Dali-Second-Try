@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5256880516A8816A00EB85AA /* memory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5256880416A8816A00EB85AA /* memory.jpg */; };
 		528F546716A873AD008962A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528F546616A873AD008962A7 /* UIKit.framework */; };
 		528F546916A873AD008962A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528F546816A873AD008962A7 /* Foundation.framework */; };
 		528F546B16A873AD008962A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528F546A16A873AD008962A7 /* CoreGraphics.framework */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5256880416A8816A00EB85AA /* memory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = memory.jpg; sourceTree = "<group>"; };
 		528F546216A873AD008962A7 /* Dali Second Try.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dali Second Try.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528F546616A873AD008962A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		528F546816A873AD008962A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -142,6 +144,7 @@
 		528F546D16A873AD008962A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5256880416A8816A00EB85AA /* memory.jpg */,
 				528F54A616A875C0008962A7 /* Paint1.jpg */,
 				528F54A816A875CA008962A7 /* Paint2.jpg */,
 				528F546E16A873AD008962A7 /* Dali Second Try-Info.plist */,
@@ -253,6 +256,7 @@
 				528F54A516A874AB008962A7 /* CurrentViewController.xib in Resources */,
 				528F54A716A875C0008962A7 /* Paint1.jpg in Resources */,
 				528F54A916A875CA008962A7 /* Paint2.jpg in Resources */,
+				5256880516A8816A00EB85AA /* memory.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +471,7 @@
 				528F549D16A873AE008962A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		528F549E16A873AE008962A7 /* Build configuration list for PBXNativeTarget "Dali Second TryTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +480,7 @@
 				528F54A016A873AE008962A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

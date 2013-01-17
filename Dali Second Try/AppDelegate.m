@@ -14,11 +14,12 @@
 {
     UIImage *painting1 = [UIImage imageNamed:@"paint1.jpg"];
     UIImage *painting2 = [UIImage imageNamed:@"paint2.jpg"];
-    NSArray *paintings2 = [[NSArray alloc] initWithObjects:painting2, painting1, nil];
+    UIImage *mem = [UIImage imageNamed:@"memory.jpg"];
+    NSArray *paintings2 = [[NSArray alloc] initWithObjects:painting2, painting1, mem, nil];
     
     
     CurrentViewController* firstTry = [[CurrentViewController alloc] initWithNibName:@"CurrentViewController" bundle:nil];
-    firstTry.painting = [paintings2 objectAtIndex:2];
+    firstTry.painting = [paintings2 objectAtIndex:0];
     
     self.window.rootViewController = firstTry;
     [self.window makeKeyAndVisible];
