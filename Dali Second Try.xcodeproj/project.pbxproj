@@ -23,6 +23,10 @@
 		528F548D16A873AE008962A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528F546816A873AD008962A7 /* Foundation.framework */; };
 		528F549516A873AE008962A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 528F549316A873AE008962A7 /* InfoPlist.strings */; };
 		528F549816A873AE008962A7 /* Dali_Second_TryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F549716A873AE008962A7 /* Dali_Second_TryTests.m */; };
+		528F54A416A874AB008962A7 /* CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F54A216A874AB008962A7 /* CurrentViewController.m */; };
+		528F54A516A874AB008962A7 /* CurrentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528F54A316A874AB008962A7 /* CurrentViewController.xib */; };
+		528F54A716A875C0008962A7 /* Paint1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528F54A616A875C0008962A7 /* Paint1.jpg */; };
+		528F54A916A875CA008962A7 /* Paint2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528F54A816A875CA008962A7 /* Paint2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,11 @@
 		528F549416A873AE008962A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		528F549616A873AE008962A7 /* Dali_Second_TryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dali_Second_TryTests.h; sourceTree = "<group>"; };
 		528F549716A873AE008962A7 /* Dali_Second_TryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dali_Second_TryTests.m; sourceTree = "<group>"; };
+		528F54A116A874AB008962A7 /* CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentViewController.h; sourceTree = "<group>"; };
+		528F54A216A874AB008962A7 /* CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentViewController.m; sourceTree = "<group>"; };
+		528F54A316A874AB008962A7 /* CurrentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentViewController.xib; sourceTree = "<group>"; };
+		528F54A616A875C0008962A7 /* Paint1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paint1.jpg; sourceTree = "<group>"; };
+		528F54A816A875CA008962A7 /* Paint2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paint2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,9 @@
 			children = (
 				528F547516A873AD008962A7 /* AppDelegate.h */,
 				528F547616A873AD008962A7 /* AppDelegate.m */,
+				528F54A116A874AB008962A7 /* CurrentViewController.h */,
+				528F54A216A874AB008962A7 /* CurrentViewController.m */,
+				528F54A316A874AB008962A7 /* CurrentViewController.xib */,
 				528F547E16A873AE008962A7 /* MainStoryboard.storyboard */,
 				528F548116A873AE008962A7 /* ViewController.h */,
 				528F548216A873AE008962A7 /* ViewController.m */,
@@ -130,6 +142,8 @@
 		528F546D16A873AD008962A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				528F54A616A875C0008962A7 /* Paint1.jpg */,
+				528F54A816A875CA008962A7 /* Paint2.jpg */,
 				528F546E16A873AD008962A7 /* Dali Second Try-Info.plist */,
 				528F546F16A873AD008962A7 /* InfoPlist.strings */,
 				528F547216A873AD008962A7 /* main.m */,
@@ -236,6 +250,9 @@
 				528F547B16A873AE008962A7 /* Default@2x.png in Resources */,
 				528F547D16A873AE008962A7 /* Default-568h@2x.png in Resources */,
 				528F548016A873AE008962A7 /* MainStoryboard.storyboard in Resources */,
+				528F54A516A874AB008962A7 /* CurrentViewController.xib in Resources */,
+				528F54A716A875C0008962A7 /* Paint1.jpg in Resources */,
+				528F54A916A875CA008962A7 /* Paint2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +290,7 @@
 				528F547316A873AD008962A7 /* main.m in Sources */,
 				528F547716A873AD008962A7 /* AppDelegate.m in Sources */,
 				528F548316A873AE008962A7 /* ViewController.m in Sources */,
+				528F54A416A874AB008962A7 /* CurrentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

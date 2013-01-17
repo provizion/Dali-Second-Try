@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CurrentViewController.h
 //  Dali Second Try
 //
 //  Created by Mikhail Provizion on 17.01.13.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CurrentViewController.h"
 
-@interface ViewController : UIPageViewController <UIPageViewControllerDataSource>
+@interface CurrentViewController : UIViewController
 
-@property NSArray* paintings;
+@property UIImage* painting;
 
 @end
