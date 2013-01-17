@@ -10,6 +10,12 @@
 
 @interface CurrentViewController : UIViewController
 
-@property UIImage* painting;
+{
+    IBOutlet UIImageView* paintingView;
+}
+    
+@property (nonatomic, retain) UIImage* painting;
+@property (nonatomic, retain) UIImageView* paintingView;
+
 
 @end
